@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Lambda build artifacts
+lambda/*.zip
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Environment files
+.env
